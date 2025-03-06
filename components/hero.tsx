@@ -13,6 +13,7 @@ const Hero = () => {
           per="char"
           preset="fade-in-blur"
           speedReveal={0.5}
+          delay={0.5}
           className="font-bebas relative text-7xl font-extrabold tracking-wider text-neutral-300 font-stretch-90% sm:text-9xl lg:text-[200px]"
         >
           Mchango
@@ -22,7 +23,7 @@ const Hero = () => {
           per="word"
           preset="fade-in-blur"
           speedReveal={0.7}
-          delay={0.5}
+          delay={1}
           className="font-grotesk text-center text-sm font-light text-neutral-300 capitalize lg:text-lg"
         >
           Eliminate trust from group savings and contributions
