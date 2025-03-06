@@ -3,7 +3,7 @@ import { TextEffect } from "./motion-primitives/text-effect";
 
 const Hero = () => {
   return (
-    <section className="section_wrapper bg-grid-neutral-50/[0.05]">
+    <section className="section_wrapper bg-grid-neutral-50/[0.03]">
       <div className="flex_end">
         <GlowEffectButton />
       </div>
@@ -13,7 +13,7 @@ const Hero = () => {
           per="char"
           preset="fade-in-blur"
           speedReveal={0.5}
-          className="font-bebas sm:text-wider relative text-7xl font-extrabold tracking-wide text-neutral-300 font-stretch-90% sm:text-9xl lg:text-[200px]"
+          className="font-bebas relative text-7xl font-extrabold tracking-wider text-neutral-300 font-stretch-90% sm:text-9xl lg:text-[200px]"
         >
           Mchango
         </TextEffect>
