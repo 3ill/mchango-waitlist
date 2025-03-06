@@ -26,6 +26,14 @@
   .flex_between {
     @apply flex items-center justify-between;
   }
+
+  .work_header {
+    @apply font-helvetica text-lg text-white uppercase sm:text-2xl lg:text-3xl;
+  }
+
+  .work_description {
+    @apply font-grotesk max-w-prose text-sm font-light text-neutral-50 lg:text-lg;
+  }
 }
 
 @theme inline {
