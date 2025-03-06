@@ -43,7 +43,7 @@ const HowItWorks = () => {
           <p className="work_description">
             Create or join from a list of secure groups
           </p>
-          <div className="flex">
+          <div className="motion-preset-expand motion-duration-1000 flex">
             <IconHomeEco className="h-[100px] w-[100px] text-yellow-500 sm:h-[200px] sm:w-[200px]" />
           </div>
         </div>
@@ -67,7 +67,7 @@ const HowItWorks = () => {
           <p className="work_description">
             Stake your ERC20 tokens to be eligible to participate in rotations.
           </p>
-          <div className="flex">
+          <div className="motion-preset-expand motion-duration-1000 flex">
             <IconBrandTether className="h-[100px] w-[100px] text-green-500 sm:h-[200px] sm:w-[200px]" />
           </div>
         </div>
@@ -90,7 +90,7 @@ const HowItWorks = () => {
           <p className="work_description">
             Enjoy secure and automated group contributions.
           </p>
-          <div className="flex">
+          <div className="motion-preset-expand motion-duration-1000 flex">
             <Icon3dRotate className="h-[100px] w-[100px] text-blue-500 sm:h-[200px] sm:w-[200px]" />
           </div>
         </div>
