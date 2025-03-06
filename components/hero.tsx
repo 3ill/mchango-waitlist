@@ -3,7 +3,7 @@ import { TextEffect } from "./motion-primitives/text-effect";
 
 const Hero = () => {
   return (
-    <section className="section_wrapper bg-grid-neutral-50/[0.03]">
+    <section className="section_wrapper bg-grid-neutral-50/[0.03] min-h-screen">
       <div className="flex_end">
         <GlowEffectButton />
       </div>
