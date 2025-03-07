@@ -28,7 +28,7 @@
   }
 
   .work_header {
-    @apply font-helvetica text-lg text-white uppercase sm:text-2xl lg:text-3xl;
+    @apply font-helvetica text-lg uppercase sm:text-2xl lg:text-3xl;
   }
 
   .work_description {
