@@ -34,6 +34,14 @@
   .work_description {
     @apply font-grotesk max-w-prose text-sm font-light text-neutral-50 lg:text-lg;
   }
+
+  .accordion_title {
+    @apply font-helvetica ml-2 font-bold text-neutral-50;
+  }
+
+  .accordion_content {
+    @apply font-grotesk max-w-prose pr-2 pl-6 font-light text-neutral-500;
+  }
 }
 
 @theme inline {
